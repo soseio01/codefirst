@@ -1,4 +1,4 @@
-h1{
+#title{
 	text-align :center;
 	font-size: 100px;
 	font-family: 'Covered By Your Grace', cursive;
@@ -14,7 +14,7 @@ body{
 	border: 2px solid #666666;
 	height:1400px;
 	width:1400px;
-	background-image: url(http://theartmad.com/wp-content/uploads/Fairy-Background-4.jpg);
+	background-image: url("http://hdwallpapersfit.com/wp-content/uploads/2015/03/magical-wallpaper.jpg");
 	background-size: cover;
 	background-position:fixed;
 	}
