@@ -1,31 +1,3 @@
-#title{
-	text-align :center;
-	font-size: 100px;
-	font-family: 'Covered By Your Grace', cursive;
-	color: white;
-}
-
-div{
-	color: white;
-}
-
-body{
-	border-radius: 5px;
-	border: 2px solid #666666;
-	height:1400px;
-	width:1400px;
-	background-image: url("http://hdwallpapersfit.com/wp-content/uploads/2015/03/magical-wallpaper.jpg");
-	background-size: cover;
-	background-position:fixed;
-	}
-
-#introduction{
+.left{
 	text-align: center;
-	font-family: 'Indie Flower', cursive;
-	font-weight: 400px;
-	font-size: 70px;
-	color: white;
-}
-.text-right{
-	text-align: right;
 }
