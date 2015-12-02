@@ -9,7 +9,7 @@ div{
 	color: white;
 }
 
-body{
+@media (max-width:699px) and(min-width:520px),(min-width:1151px){ body{
 	border-radius: 5px;
 	border: 2px solid #666666;
 	height:1400px;
@@ -17,7 +17,8 @@ body{
 	background-image: url("http://hdwallpapersfit.com/wp-content/uploads/2015/03/magical-wallpaper.jpg");
 	background-size: cover;
 	background-position:fixed;
-	}
+	} 
+}
 
 #introduction{
 	text-align: center;
