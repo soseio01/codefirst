@@ -1,8 +1,10 @@
-$(document).ready(function{
-	$("button").mouseenter(function(){
-		$("button").fadeTo("slow",0.5);
+$(document).ready(function(){
+
+	$(".btn").mouseenter(function(){
+		$(this).fadeTo("slow", 0.5);
 	});
-	$("button").mouseleave(function(){
-		$("button").fadeTo("fast",1);
+	$(".btn").mouseleave(function(){
+		$(this).fadeTo("fast",1);
 	});
 });
+
