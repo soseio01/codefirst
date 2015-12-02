@@ -61,10 +61,17 @@ body{
 	color:white;
 }
 
-.story{
-	padding-left:150px;
+.startsection{
+	padding-top: 110px;
 }
 
+.midsection{
+	padding-top: 150px;
+}
+
+.endsection{
+padding-top: 130px;
+}
 
 
 #head-img{
