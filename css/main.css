@@ -38,9 +38,25 @@ body{
 
 .button{
 	padding-top:80px;
-	text-align: right;
+	text-align:right;
 }
-.glyphicon-menu-right{
+
+#head-button{
+	background-color:blue;
+	border: blue;
+	color:white;
+}
+#middle-button{
+	background-color:blue;
+	border: blue;
+	color:white;
+}
+#bottom-button{
+	background-color:blue;
+	border: blue;
+	color:white;
+}
+.glyphicon{
 	padding-left:0;
 }
 .story{
