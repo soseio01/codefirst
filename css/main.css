@@ -84,16 +84,15 @@ body{
 	height:240px;
 	margin-bottom:-40px;
 }
-#head-image #head_4/*mike*/{
-	margin-bottom: 40px;
-	padding-bottom: 20px;
+#head-image #head_3/*mike*/{
+	margin-bottom: 0px;
 }
 #head-image #head_4/*shrek*/{
-	margin-bottom:-10px;
+	margin-bottom:0px;
 }
 #middle-image img{
 	height:210px;
-	margin-top:-30px;
+	margin-top:-40px;
 	margin-bottom:-30px;
 	z-index: 2;
 	position:relative;
@@ -131,8 +130,8 @@ body{
 }
 #bottom-image #bottom_4 /* big bird*/{
 	height: 200px;
-	margin-top: 20px;
-	padding-left: 30px;
+	margin-top: 10px;
+	padding-left: 25px;
 }
 
 .button{
