@@ -7,7 +7,7 @@ $(document).ready(function(){
 		$(this).fadeTo("fast",1);
 	});
 
-	$("#head_1").css('display','block');
+	$("#head_1").css({'display':'block', 'margin-left':'auto' , 'margin-right':'auto' });
 	$("#head_2").css('display','none');
 	$("#head_3").css('display','none');
 	$("#head_4").css('display','none')
@@ -26,7 +26,7 @@ function headprev(){
 
 if (current_head_index == 1)
  {
- 	$("#head_1").css('display','block');
+ 	$("#head_1").css({'display':'block', 'margin-left':'auto' , 'margin-right':'auto' });
 	$("#head_2").css('display','none');
 	$("#head_3").css('display','none');
 	$("#head_4").css('display','none');
@@ -37,7 +37,7 @@ if (current_head_index == 1)
   if (current_head_index == 2)
  {
  	$("#head_1").css('display','none');
-	$("#head_2").css('display','block');
+	$("#head_2").css({'display':'block', 'margin-left':'auto' , 'margin-right':'auto' });
 	$("#head_3").css('display','none');
 	$("#head_4").css('display','none');
  	return;
@@ -47,7 +47,7 @@ if (current_head_index == 1)
  {
  	$("#head_1").css('display','none');
 	$("#head_2").css('display','none');
-	$("#head_3").css('display','block');
+	$("#head_3").css({'display':'block', 'margin-left':'auto' , 'margin-right':'auto' });
 	$("#head_4").css('display','none');
  	return;
  }
@@ -57,7 +57,7 @@ if (current_head_index == 1)
  	$("#head_1").css('display','none');
 	$("#head_2").css('display','none');
 	$("#head_3").css('display','none');
-	$("#head_4").css('display','block');
+	$("#head_4").css({'display':'block', 'margin-left':'auto' , 'margin-right':'auto' });
  	return;
  }
 
@@ -75,7 +75,7 @@ function headnext(){
 
  if (current_head_index == 1)
  {
- 	$("#head_1").css('display','block');
+ 	$("#head_1").css({'display':'block', 'margin-left':'auto' , 'margin-right':'auto' });
 	$("#head_2").css('display','none');
 	$("#head_3").css('display','none');
 	$("#head_4").css('display','none');
@@ -86,7 +86,7 @@ function headnext(){
   if (current_head_index == 2)
  {
  	$("#head_1").css('display','none');
-	$("#head_2").css('display','block');
+	$("#head_2").css({'display':'block', 'margin-left':'auto' , 'margin-right':'auto' });
 	$("#head_3").css('display','none');
 	$("#head_4").css('display','none');
 
@@ -97,7 +97,7 @@ function headnext(){
  {
  	$("#head_1").css('display','none');
 	$("#head_2").css('display','none');
-	$("#head_3").css('display','block');
+	$("#head_3").css({'display':'block', 'margin-left':'auto' , 'margin-right':'auto' });
 	$("#head_4").css('display','none');
 
  	return;
@@ -108,7 +108,7 @@ function headnext(){
  	$("#head_1").css('display','none');
 	$("#head_2").css('display','none');
 	$("#head_3").css('display','none');
-	$("#head_4").css('display','block');
+	$("#head_4").css({'display':'block', 'margin-left':'auto' , 'margin-right':'auto' });
 
  	return;
  }
