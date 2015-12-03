@@ -21,7 +21,7 @@
         <p style='font-size:50px'> Pick your <span style='font-size:55px'> magical</span> companion and <span style='font-size:55px'> discover </span> their tale</p>
     </div>
   
-  <div id="main section">
+  <div id="main">
       <div class="container">
 
         <!--HEAD BUTTONS/IMAGE/STORY-->
@@ -34,11 +34,11 @@
                 </button>
             </div>
           </div>
-          <div id="head-image" class="col-md-4 character-image">
-              <img id="head_1" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ0NrU97Nhwxe41gCDdkxMVl-i-2Bi-SOl8rofn2kN5Xo5szNLrrg" width="300" height="300" alt="first image">
-              <img id="head_2" src="https://cloud.githubusercontent.com/assets/9318819/11484473/1345c616-97a6-11e5-8a6e-ff75be8a6481.jpg" width="300" height="300" alt="second image">
-              <img id="head_3" src="https://cloud.githubusercontent.com/assets/9318819/11484475/134d0ae8-97a6-11e5-9d0d-63791fc98b3b.jpg" width="300" height="300" alt="third image">
-              <img id="head_4" src="https://cloud.githubusercontent.com/assets/9318819/11484676/463558e2-97a7-11e5-9c4e-80dfd44b71e0.jpg"width="300" height="300" alt="fourth image">
+          <div id="head-image" class="col-md-6 character-image">
+              <img id="head_1" src="css/images/headpig.png" height="300" alt="first image">
+              <img id="head_2" src="css/images/headcat.png" height="300" alt="second image">
+              <img id="head_3" src="css/images/headmike.png" height="300" alt="third image">
+              <img id="head_4" src="css/images/headshrek.png" height="300" alt="fourth image">
           </div>
 
           <div class="col-md-1 button">
@@ -47,7 +47,7 @@
             </button>
           </div>
 
-          <div id="head-story" class="col-md-6">
+          <div id="head-story" class="col-md-4">
             <div class="story">
               <p class="startsection" style='font-size:25px;font-family:Papyrus'>There once was a man from Peru </br>
             Who dreamt that he swallowed his shoe.</br> 
@@ -60,22 +60,24 @@
         <div id="middle" class="row">
 
           <div class="col-sm-1 button">
-            <button id="middle-btn" type="button" class="btn btn-default btn-sml">
+            <button id="middle-btn" type="button" class="btn btn-default btn-sml" onclick="middleprev();">
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
             </button>
           </div>
 
-          <div id="middle-image" class="col-sm-4 character-image">
-            <img src="https://cloud.githubusercontent.com/assets/9318819/11484469/133b5636-97a6-11e5-9d10-df4ba44b7233.jpg">
+          <div id="middle-image" class="col-sm-6 character-image">
+            <img id="middle_1" src="css/images/middlebob.png" height="300">
+            <img id="middle_2" src="css/images/middlecowboy.png" height="300">
+            <img id="middle_3" src="css/images/middleharry.png" height="300">
           </div>
 
           <div class="col-sm-1 button">
-            <button id="middle-btn" type="button" class="btn btn-default btn-sml">
+            <button id="middle-btn" type="button" class="btn btn-default btn-sml" onclick="middlenext();">
               <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
             </button>
           </div>
 
-          <div id="middle-story" class="col-sm-6 story">
+          <div id="middle-story" class="col-sm-4 story">
           	<p class="midsection" style="font-size:25px; font-family: Papyrus"> He woke up in fright</br>
             In the mid of the night</br>
             </p>
@@ -86,17 +88,19 @@
         <div id="bottom" class="row">
 
           <div class="col-sm-1 button">
-            <button id="bottom-btn" type="button" class="btn btn-default btn-sml">
+            <button id="bottom-btn" type="button" class="btn btn-default btn-sml" onclick="bottomprev();">
               <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
             </button>
           </div>
 
-          <div id="bottom-image" class="col-sm-4 character-image">
-            <img src="https://cloud.githubusercontent.com/assets/9318819/11484470/1340d2be-97a6-11e5-9acf-5f4c7bda59a1.jpg">
+          <div id="bottom-image" class="col-sm-6 character-image">
+            <img id="bottom_1" src="css/images/bottomlegs.png">
+            <img id="bottom_2" src="css/images/bottommermaid.png">
+            <img id="bottom_3" src="css/images/bottomsully.png">
           </div>
 
           <div class="col-sm-1 button">
-            <button id="bottom-btn" type="button" class="btn btn-default btn-sml">
+            <button id="bottom-btn" type="button" class="btn btn-default btn-sml" onclick="bottomnext();">
               <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
             </button>
           </div>
@@ -111,47 +115,7 @@
   </div>
   
 
-        <!--<div class="left">
-        <div class='col-sm-4'>
-    <div id="h1">
-      <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ0NrU97Nhwxe41gCDdkxMVl-i-2Bi-SOl8rofn2kN5Xo5szNLrrg">
-    </div>
-   
-      <div img2>
-      	<img src="https://cloud.githubusercontent.com/assets/9318819/11484473/1345c616-97a6-11e5-8a6e-ff75be8a6481.jpg">
-      </div>
-   
-        <div img3>
-        	<img src="https://cloud.githubusercontent.com/assets/9318819/11484475/134d0ae8-97a6-11e5-9d0d-63791fc98b3b.jpg">
-        </div>
-  
-          <div img4>
-          	<img src="https://cloud.githubusercontent.com/assets/9318819/11484676/463558e2-97a7-11e5-9c4e-80dfd44b71e0.jpg">
-          </div>
-  
-            <div img5>
-            	<img src="https://cloud.githubusercontent.com/assets/9318819/11484469/133b5636-97a6-11e5-9d10-df4ba44b7233.jpg">
-            </div>
-  
-              <div img6>
-              	<img src="https://cloud.githubusercontent.com/assets/9318819/11484471/1343c924-97a6-11e5-853a-ba2ed9a39360.jpg">
-              </div>
-  
-                <div img 7>
-                	<img src="https://cloud.githubusercontent.com/assets/9318819/11484472/13456b30-97a6-11e5-85e7-2e765c8ba98e.jpg">
-                </div>
-   
-                   <div img 8>
-                   	<img src="https://cloud.githubusercontent.com/assets/9318819/11484470/1340d2be-97a6-11e5-9acf-5f4c7bda59a1.jpg">
-                    </div>
-    
-                    <div img 9>
-                    	<img src="https://cloud.githubusercontent.com/assets/9318819/11484474/1349d288-97a6-11e5-95ac-e7fa99f32ee5.jpg">
-                    </div>
-                    	
-                    	<div img 10>
-                    		<img src="https://cloud.githubusercontent.com/assets/9318819/11484476/1360e4f0-97a6-11e5-8a94-e4823d0e519c.jpg">
-                    	</div>
+        <!--<
       </div>
   </div>
    

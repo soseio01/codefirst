@@ -11,7 +11,12 @@ $(document).ready(function(){
 	$("#head_2").css('display','none');
 	$("#head_3").css('display','none');
 	$("#head_4").css('display','none')
-
+	$("#middle_1").css({'display':'block', 'margin-left':'auto' , 'margin-right':'auto' });
+	$("#middle_2").css('display','none');
+	$("#middle_3").css('display','none');
+	$("#bottom_1").css({'display':'block', 'margin-left':'auto' , 'margin-right':'auto' });
+	$("#bottom_2").css('display','none');
+	$("#bottom_3").css('display','none');
 
 });
 
