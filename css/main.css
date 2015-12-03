@@ -9,6 +9,10 @@ div{
 	color: white;
 }
 
+@media (max-width:768px)and(min-width:1024px),{font-family:Italics;
+color:red;
+	font-size:60px}
+} 
 body{
 	border-radius: 5px;
 	border: 2px solid #666666;
@@ -17,7 +21,8 @@ body{
 	background-image: url("http://hdwallpapersfit.com/wp-content/uploads/2015/03/magical-wallpaper.jpg");
 	background-size: cover;
 	background-position:fixed;
-	}
+	} 
+}
 
 #introduction{
 	text-align: center;
