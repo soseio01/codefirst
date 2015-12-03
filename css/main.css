@@ -70,14 +70,43 @@ body{
 	margin-right:auto;
 }
 #head-image img{
-	height:300px;
+	height:200px;
+	margin-top: 40px;
 	margin-bottom:-20px;
-	z-index:1;
+	z-index:3;
+	position: relative;
+}
+#head-image #head_1/*pig*/{
+	height:240px;
+	margin-bottom:-60px;
+}
+#head-image #head_2/*cat*/{
+	height:240px;
+	margin-bottom:-50px;
+}
+#head-image #head_4/*shrek*/{
+	margin-bottom:-10px;
 }
 #middle-image img{
-	height:300px;
-	margin-top:-20px;
+	height:210px;
+	margin-top:-30px;
+	margin-bottom:-30px;
 	z-index: 2;
+	position:relative;
+}
+#middle-image #middle_2 /*cowboy*/{
+height:250px;
+}
+#middle-image #middle_3/*harry*/{
+	height:250px;
+}
+#middle-image #middle_4/*wonderwoman*/{
+	height:230px;
+}
+
+#bottom-image img{
+	z-index:1;
+	position: relative;
 }
 
 .button{
@@ -101,19 +130,19 @@ body{
 }
 
 .startsection{
-	padding-top: 110px;
+	padding-top: 80px;
 	font-size:25px; 
 	font-family:Papyrus;
 }
 
 .midsection{
-	padding-top: 150px;
+	padding-top: 80px;
 	font-size:25px; 
 	font-family:Papyrus;
 }
 
 .endsection{
-padding-top: 130px;
+padding-top: 80px;
 font-size:25px; 
 font-family:Papyrus;
 }
