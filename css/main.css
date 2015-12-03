@@ -4,19 +4,27 @@
 	font-family: 'Covered By Your Grace', cursive;
 	color: white;
 }
+#introduction p {
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size: 50px;
+	color: white;
+	margin-bottom: 50px;
+}
 
 div{
 	color: white;
 }
 
-@media screen and (max-width:1024px)and(min-width:768px){
+@media screen and (max-width:1024px) and (min-width:768px) {
 	#title{
 		font-size: 100px;
 		font-family: Arial;
 		color: red;
 	}
-	#introduction{
-		font-size: 80px;
+
+	#introduction p {
+		font-size: 20px;
 		font-family: Garamond, Arial;
 		color: red;	
 	}
@@ -51,14 +59,6 @@ body{
 	} 
 }
 
-#introduction{
-	text-align: center;
-	font-family: 'Indie Flower', cursive;
-	font-weight: 400px;
-	font-size: 70px;
-	color: white;
-	margin-bottom: 50px;
-}
 .right{
 	text-align: left;
 	padding-left: 40px;
@@ -78,11 +78,15 @@ body{
 }
 #head-image #head_1/*pig*/{
 	height:240px;
-	margin-bottom:-60px;
+	margin-bottom:-40px;
 }
 #head-image #head_2/*cat*/{
 	height:240px;
-	margin-bottom:-50px;
+	margin-bottom:-40px;
+}
+#head-image #head_4/*mike*/{
+	margin-bottom: 40px;
+	padding-bottom: 20px;
 }
 #head-image #head_4/*shrek*/{
 	margin-bottom:-10px;
@@ -95,18 +99,40 @@ body{
 	position:relative;
 }
 #middle-image #middle_2 /*cowboy*/{
-height:250px;
+	height:280px;
+	margin-bottom:-100px;
 }
+
 #middle-image #middle_3/*harry*/{
 	height:250px;
+	margin-bottom: -70px;
 }
 #middle-image #middle_4/*wonderwoman*/{
 	height:230px;
+	margin-bottom:-50px;
 }
 
 #bottom-image img{
 	z-index:1;
 	position: relative;
+}
+#bottom-image #bottom_1 /* legs*/ {
+
+}
+#bottom-image #bottom_2 /*mermaid*/{
+	margin-top: -30px;
+	padding-left: 30px;
+}
+#bottom-image #bottom_3 /* sully */{
+	height:400px;
+	width: 300px;
+	margin-top: 10px;
+	padding-left: 30px;
+}
+#bottom-image #bottom_4 /* big bird*/{
+	height: 200px;
+	margin-top: 20px;
+	padding-left: 30px;
 }
 
 .button{
@@ -131,19 +157,22 @@ height:250px;
 
 .startsection{
 	padding-top: 80px;
-	font-size:25px; 
+	font-size:23px; 
 	font-family:Papyrus;
+	padding-left: -50px;
 }
 
 .midsection{
 	padding-top: 80px;
-	font-size:25px; 
+	font-size:23px; 
 	font-family:Papyrus;
+	padding-left: -50px;
 }
 
 .endsection{
 padding-top: 80px;
-font-size:25px; 
+font-size:23px; 
 font-family:Papyrus;
+padding-left: -50px;
 }
 
